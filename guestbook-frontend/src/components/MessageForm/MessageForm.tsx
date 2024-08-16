@@ -59,7 +59,7 @@ const MessageForm: React.FC<Props> = ({onSubmit, modal, createLoading, onClose})
       </div>
       <div className="form-group mb-3">
         <textarea id="message" name='message' cols={41} rows={3} className="border border-primary-subtle" required
-                  placeholder="Введите ваше сообщение" value={message.message} onChange={inputChangeHandler}></textarea>
+                  placeholder="Enter your message" value={message.message} onChange={inputChangeHandler}></textarea>
       </div>
       <div className="form-group mb-4">
         <FileInput onChange={fileInputChangeHandler} modal={modal}/>
